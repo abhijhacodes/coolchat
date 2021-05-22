@@ -11,3 +11,9 @@ To create a new chat room:
 
 The main app screen:
 ![chat2](https://user-images.githubusercontent.com/77770628/119226517-2e4f4e00-bb27-11eb-972b-0c868844dc21.png)
+
+TECH STACK USED:
+React JS (Front-end)
+Firebase (Backend, Database and hosting)
+CSS, Styled-components, React-icons (Styling)
+Canva (Design)
