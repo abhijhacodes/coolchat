@@ -1,0 +1,144 @@
+html {
+  font-size: 62.5%;
+}
+
+.chat {
+  flex: 0.65;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  border-bottom: 0.2rem solid lightgray;
+  background-color: #cff7edee;
+}
+
+.chat-header-info {
+  flex: 1;
+  padding-left: 2rem;
+}
+
+.chat-header-info > h2 {
+  margin-bottom: 0.3rem;
+  font-weight: bolder;
+  font-size: 1.7rem;
+}
+
+.chat-header-info > p {
+  color: rgb(87, 81, 81);
+}
+
+.chat-header-right {
+  display: flex;
+  justify-content: space between;
+  min-width: 10rem;
+}
+
+.chat-body {
+  flex: 1;
+  background-image: url("./chatbg.png");
+  /* background-size: 80rem 45rem; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3rem;
+  overflow: scroll;
+}
+
+.chat-message {
+  position: relative;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: fit-content;
+  background-color: white;
+  color: rgb(70, 67, 67);
+  margin-bottom: 2rem;
+}
+
+.chat-name {
+  position: absolute;
+  top: -1.5rem;
+  font-weight: 800;
+  font-size: xx-small;
+}
+
+.time-stamp {
+  margin-left: 1rem;
+  font-size: xx-small;
+}
+
+.chat-reciever {
+  margin-left: auto;
+  background-color: #81f081;
+}
+
+.chat-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.2rem;
+  border-top: 0.1rem solid lightgray;
+  background-color: #bcf5e7ee;
+}
+
+.chat-footer > form {
+  flex: 1;
+  display: flex;
+}
+
+.chat-footer > form > input {
+  flex: 1;
+  border-radius: 3rem;
+  padding: 1rem;
+  border: none;
+  margin: 0 1rem 0rem 1rem;
+}
+
+.chat-footer > form > button {
+  border-radius: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  background: #0099cc;
+  background: -webkit-linear-gradient(
+    #e5f4f9,
+    #b2e0ef,
+    #7fcce5,
+    #0089b7,
+    #0099cc,
+    #b2e0ef
+  );
+  background: -o-linear-gradient(
+    #e5f4f9,
+    #b2e0ef,
+    #7fcce5,
+    #0089b7,
+    #0099cc,
+    #b2e0ef
+  );
+  background: -moz-linear-gradient(
+    #e5f4f9,
+    #b2e0ef,
+    #7fcce5,
+    #0089b7,
+    #0099cc,
+    #b2e0ef
+  );
+  background: linear-gradient(
+    #e5f4f9,
+    #b2e0ef,
+    #7fcce5,
+    #0089b7,
+    #0099cc,
+    #b2e0ef
+  );
+}
+
+.chat-footer > .MuiSvgIcon-root {
+  padding: 1rem;
+  color: gray;
+}

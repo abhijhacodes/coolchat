@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Roboto Slab", serif;
+}
+
+.login {
+  background-color: #03203c;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.login-container {
+  padding: 10rem;
+  width: 23rem;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+
+  border-radius: 2rem;
+  box-shadow: 0 0.1rem 0.3rem rgba(126, 235, 135, 0.938), 0 0.1rem;
+}
+
+.login-container > img {
+  object-fit: contain;
+  height: 20rem;
+  width: 20rem;
+  margin-bottom: 4rem;
+}
+
+.login-text {
+  color: #1e2b1c;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-container > button {
+  border-radius: 0.4rem;
+  background-color: #03203c;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 22rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4rem 2rem 2rem 2rem;
+  box-shadow: 0 1rem 2rem -0.8rem rgba(0, 0, 0, 0.7);
+}
+
+.login-container > button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.login-container > button:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 1.4rem;
+  right: -2rem;
+  transition: 0.5s;
+}
+
+.login-container > button:hover {
+  padding-right: 2.4rem;
+  padding-left: 0.8rem;
+}
+
+.login-container > button:hover:after {
+  opacity: 1;
+  right: 1rem;
+}
